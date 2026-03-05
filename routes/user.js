@@ -1,6 +1,6 @@
 import express from "express";
 import { Router } from "express";
-
+import { usermodel } from "../models/db";
 const userRouter=Router();
 userRouter.post("/signup",function(req,res){
     res.json({

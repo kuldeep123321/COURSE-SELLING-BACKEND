@@ -1,6 +1,6 @@
 import express from "express";
 import { Router } from "express";
-
+import { coursemodel } from "../models/db";
 const courseRouter=Router();
 
 courseRouter.post("./purchase",function(req,res){
